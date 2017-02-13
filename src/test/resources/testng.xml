@@ -1,0 +1,12 @@
+<suite name="All algorithms tests">
+    <test name="Run all tests">
+        <classes>
+            <class name="ArrayElementsSum" />
+            <class name="ArraysCommonElements" />
+            <class name="FilePrinter" />
+            <class name="MinMaxArrayValue" />
+            <class name="PrintSequences" />
+            <class name="QuickSort" />
+        </classes>
+    </test>
+</suite>

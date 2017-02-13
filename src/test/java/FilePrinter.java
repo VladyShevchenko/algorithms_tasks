@@ -3,6 +3,7 @@ import org.testng.annotations.Test;
 import java.io.File;
 
 public class FilePrinter {
+    private String directory = "C:\\Users\\vlady\\algorithms\\src\\";
 
     private void buildTree(String directory) {
 
@@ -23,6 +24,6 @@ public class FilePrinter {
 
     @Test
     public void testSequences() {
-        new FilePrinter().buildTree("C:\\Users\\vlady\\algorithms\\src\\");
+        new FilePrinter().buildTree(directory);
     }
 }
