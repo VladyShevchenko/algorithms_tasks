@@ -17,8 +17,6 @@ public class ArraysCommonElements {
     }
 
     String findArraysCommonElemtn(int [] firstArray, int [] secondArray){
-        int[] arr1 = {4,7,3,9,2};
-        int[] arr2 = {3,2,12,9,40,32,4};
         List<Integer> finalArr = new ArrayList<Integer>();
         for(int i=0;i<firstArray.length;i++){
             for(int j=0;j<secondArray.length;j++){
