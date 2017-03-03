@@ -23,6 +23,10 @@ java --version
 ```
 mvn -v
 ```
+Update local path to testng.xml in pom.xml file. Example:
+```
+<suiteXmlFile>/Users/vlady/algorithms_tasks/src/test/resources/testng.xml</suiteXmlFile>
+```
 ## Running the tests
 
 Run all algorithm's tests with the command:
